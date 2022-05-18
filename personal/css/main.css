@@ -1,0 +1,15 @@
+/*seleccion de un alcase*/
+
+a {
+    /*quita la raya de los links*/
+    text-decoration: none;
+}
+
+.cabeza {
+    /*tamaño de lo seleccionado*/
+    font-size: 25px;
+    /*color de fondo*/
+    background-color: rgb(90, 174, 223);
+    /*bordes de lo seleccionado*/
+    border-radius: 10px;
+}

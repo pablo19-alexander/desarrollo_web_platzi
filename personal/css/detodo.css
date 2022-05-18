@@ -1,0 +1,38 @@
+*todos {}
+
+#id {}
+
+.clases {}
+
+:estado {}
+
+[]atributos {}
+
+body {
+    /*tamaño de lo seleccionado*/
+    font-size: 25px;
+    /*color de fondo*/
+    background-color: rgb(90, 174, 223);
+    /*bordes de lo seleccionado*/
+    border-radius: 10px;
+    /*quita la raya de los links*/
+    text-decoration: none;
+    /*El relleno se utiliza para crear espacio alrededor del contenido de un elemento, dentro de los bordes definidos.*/
+    /* relleno interno de in contenedor */
+    padding: 20px;
+    /* quita los puntitos de la lista */
+    list-style: none;
+    /* pone los elementos en horizontal */
+    display: inline-block;
+    /* sirve para atribuirle elementos para */
+    .header a:hover {
+        color: #fff;
+    }
+    hace interactua con el click .header a:active {
+        color: aqua;
+    }
+    /* despues del elemento agregale este contenido */
+    .header a::after {
+        content: " | ";
+    }
+}

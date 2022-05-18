@@ -1,0 +1,30 @@
+main {
+    background-color: lightyellow;
+    /*El relleno se utiliza para crear espacio alrededor del contenido de un elemento, dentro de los bordes definidos.*/
+    padding: 20px;
+}
+
+h1 {
+    color: gray;
+}
+
+h2 {
+    color: lightgray;
+}
+
+li {
+    font-size: 26px;
+    /*interlineado*/
+    line-height: 1;
+}
+
+
+/*pseudo clases*/
+
+ul li:last-child {
+    font-weight: bold;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
